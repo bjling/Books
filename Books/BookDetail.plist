@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>bookName</key>
+		<string>aizaixianjingderizi.txt</string>
+		<key>imagePath</key>
+		<string>aizaixianjingderizi.jpeg</string>
+		<key>pageIndex</key>
+		<string>3</string>
+		<key>font</key>
+		<dict>
+			<key>11</key>
+			<array/>
+			<key>13</key>
+			<array/>
+			<key>15</key>
+			<array/>
+			<key>17</key>
+			<array/>
+			<key>19</key>
+			<array/>
+			<key>21</key>
+			<array/>
+			<key>23</key>
+			<array/>
+		</dict>
+		<key>curCount</key>
+		<string></string>
+		<key>currFontSize</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

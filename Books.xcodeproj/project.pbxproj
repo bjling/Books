@@ -19,6 +19,50 @@
 		732220261726B2E60095D0F1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732220241726B2E60095D0F1 /* MainStoryboard_iPhone.storyboard */; };
 		732220291726B2E60095D0F1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732220271726B2E60095D0F1 /* MainStoryboard_iPad.storyboard */; };
 		7322202C1726B2E60095D0F1 /* booksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7322202B1726B2E60095D0F1 /* booksViewController.m */; };
+		7363439A173670D00066DEB5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73634399173670D00066DEB5 /* CoreText.framework */; };
+		73965250174907E300151D9D /* BookImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7396524F174907E300151D9D /* BookImageView.m */; };
+		739652531749087A00151D9D /* ReadBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739652521749087A00151D9D /* ReadBooksViewController.m */; };
+		73A578C6172C142300E9E9F2 /* BookDetail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73A578C5172C142300E9E9F2 /* BookDetail.plist */; };
+		73A7059A172E4DDC00CD54B3 /* BooksCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A70599172E4DDC00CD54B3 /* BooksCell.m */; };
+		73B13C1317787F72004A01EA /* ShowAllBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B13C1217787F72004A01EA /* ShowAllBooksViewController.m */; };
+		73B13C151778936C004A01EA /* BookNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73B13C141778936C004A01EA /* BookNames.plist */; };
+		73B13C18177897AE004A01EA /* ShowBookNamesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B13C17177897AE004A01EA /* ShowBookNamesCell.m */; };
+		73B7B4021730029D00E21084 /* ReadBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B7B4011730029D00E21084 /* ReadBookViewController.m */; };
+		73B7B41717300E3C00E21084 /* aizaixianjingderizi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40617300E3C00E21084 /* aizaixianjingderizi.txt */; };
+		73B7B41817300E3C00E21084 /* anshizhangda.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40717300E3C00E21084 /* anshizhangda.txt */; };
+		73B7B41917300E3C00E21084 /* bubizhidaowoshishui.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40817300E3C00E21084 /* bubizhidaowoshishui.txt */; };
+		73B7B41A17300E3C00E21084 /* dangnigudannihuixiangqishui.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40917300E3C00E21084 /* dangnigudannihuixiangqishui.txt */; };
+		73B7B41B17300E3C00E21084 /* hudielaiguozheshijie.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40A17300E3C00E21084 /* hudielaiguozheshijie.txt */; };
+		73B7B41C17300E3C00E21084 /* liaiyigeIDdejuli.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40B17300E3C00E21084 /* liaiyigeIDdejuli.txt */; };
+		73B7B41D17300E3C00E21084 /* shalou.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40C17300E3C00E21084 /* shalou.txt */; };
+		73B7B41E17300E3C00E21084 /* shinian.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40D17300E3C00E21084 /* shinian.txt */; };
+		73B7B41F17300E3C00E21084 /* tangyi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40E17300E3C00E21084 /* tangyi.txt */; };
+		73B7B42017300E3C00E21084 /* tiaopin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B40F17300E3C00E21084 /* tiaopin.txt */; };
+		73B7B42117300E3C00E21084 /* wobushinideyuanjia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B41017300E3C00E21084 /* wobushinideyuanjia.txt */; };
+		73B7B42217300E3C00E21084 /* woyaowomenzaiyiqi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B41117300E3C00E21084 /* woyaowomenzaiyiqi.txt */; };
+		73B7B42317300E3C00E21084 /* xiaofudequnbai.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B41217300E3C00E21084 /* xiaofudequnbai.txt */; };
+		73B7B42417300E3C00E21084 /* xiaoyaodejinsechengbao.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B41317300E3C00E21084 /* xiaoyaodejinsechengbao.txt */; };
+		73B7B42517300E3C00E21084 /* zuishuxidemoshengren.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B41417300E3C00E21084 /* zuishuxidemoshengren.txt */; };
+		73B7B42617300E3C00E21084 /* zuoer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B41517300E3C00E21084 /* zuoer.txt */; };
+		73B7B42717300E3C00E21084 /* zuoerzhongjie.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B41617300E3C00E21084 /* zuoerzhongjie.txt */; };
+		73B7B43917300E5B00E21084 /* aizaixianjingderizi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B42817300E5B00E21084 /* aizaixianjingderizi.jpeg */; };
+		73B7B43A17300E5B00E21084 /* anshizhangda.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B42917300E5B00E21084 /* anshizhangda.jpeg */; };
+		73B7B43B17300E5B00E21084 /* bubizhidaowoshishui.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B42A17300E5B00E21084 /* bubizhidaowoshishui.jpeg */; };
+		73B7B43C17300E5B00E21084 /* dangnigudannihuixiangqishui.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B42B17300E5B00E21084 /* dangnigudannihuixiangqishui.jpeg */; };
+		73B7B43D17300E5B00E21084 /* hudielaiguozheshijie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B42C17300E5B00E21084 /* hudielaiguozheshijie.jpeg */; };
+		73B7B43E17300E5B00E21084 /* liaiyigeIDdejuli.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B42D17300E5B00E21084 /* liaiyigeIDdejuli.jpeg */; };
+		73B7B43F17300E5B00E21084 /* shalou.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B42E17300E5B00E21084 /* shalou.jpeg */; };
+		73B7B44017300E5B00E21084 /* shinian.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B42F17300E5B00E21084 /* shinian.jpeg */; };
+		73B7B44117300E5B00E21084 /* tangyi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B43017300E5B00E21084 /* tangyi.jpeg */; };
+		73B7B44217300E5B00E21084 /* tiaopin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B43117300E5B00E21084 /* tiaopin.jpeg */; };
+		73B7B44317300E5B00E21084 /* wobushinideyuanjia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B43217300E5B00E21084 /* wobushinideyuanjia.jpeg */; };
+		73B7B44417300E5B00E21084 /* woyaowomenzaiyiqi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B43317300E5B00E21084 /* woyaowomenzaiyiqi.jpeg */; };
+		73B7B44517300E5B00E21084 /* xiaofudequnbai.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B43417300E5B00E21084 /* xiaofudequnbai.jpeg */; };
+		73B7B44617300E5B00E21084 /* xiaoyaodejinsechengbao.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B43517300E5B00E21084 /* xiaoyaodejinsechengbao.jpeg */; };
+		73B7B44717300E5B00E21084 /* zuishuxidemoshengren.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B43617300E5B00E21084 /* zuishuxidemoshengren.jpeg */; };
+		73B7B44817300E5B00E21084 /* zuoer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B43717300E5B00E21084 /* zuoer.jpg */; };
+		73B7B44917300E5B00E21084 /* zuoerzhongjie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 73B7B43817300E5B00E21084 /* zuoerzhongjie.jpeg */; };
+		73F0CAB61769EA5900289EF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F0CAB51769EA5900289EF9 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +83,56 @@
 		732220281726B2E60095D0F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		7322202A1726B2E60095D0F1 /* booksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = booksViewController.h; sourceTree = "<group>"; };
 		7322202B1726B2E60095D0F1 /* booksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = booksViewController.m; sourceTree = "<group>"; };
+		73634399173670D00066DEB5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7396524E174907E300151D9D /* BookImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookImageView.h; sourceTree = "<group>"; };
+		7396524F174907E300151D9D /* BookImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookImageView.m; sourceTree = "<group>"; };
+		739652511749087A00151D9D /* ReadBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadBooksViewController.h; sourceTree = "<group>"; };
+		739652521749087A00151D9D /* ReadBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadBooksViewController.m; sourceTree = "<group>"; };
+		73A578C5172C142300E9E9F2 /* BookDetail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookDetail.plist; sourceTree = "<group>"; };
+		73A70598172E4DDC00CD54B3 /* BooksCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksCell.h; sourceTree = "<group>"; };
+		73A70599172E4DDC00CD54B3 /* BooksCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksCell.m; sourceTree = "<group>"; };
+		73B13C1117787F72004A01EA /* ShowAllBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAllBooksViewController.h; sourceTree = "<group>"; };
+		73B13C1217787F72004A01EA /* ShowAllBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAllBooksViewController.m; sourceTree = "<group>"; };
+		73B13C141778936C004A01EA /* BookNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookNames.plist; sourceTree = "<group>"; };
+		73B13C16177897AE004A01EA /* ShowBookNamesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowBookNamesCell.h; sourceTree = "<group>"; };
+		73B13C17177897AE004A01EA /* ShowBookNamesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowBookNamesCell.m; sourceTree = "<group>"; };
+		73B7B4001730029D00E21084 /* ReadBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadBookViewController.h; path = ../ReadBookViewController.h; sourceTree = "<group>"; };
+		73B7B4011730029D00E21084 /* ReadBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReadBookViewController.m; path = ../ReadBookViewController.m; sourceTree = "<group>"; };
+		73B7B40617300E3C00E21084 /* aizaixianjingderizi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aizaixianjingderizi.txt; sourceTree = "<group>"; };
+		73B7B40717300E3C00E21084 /* anshizhangda.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = anshizhangda.txt; sourceTree = "<group>"; };
+		73B7B40817300E3C00E21084 /* bubizhidaowoshishui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bubizhidaowoshishui.txt; sourceTree = "<group>"; };
+		73B7B40917300E3C00E21084 /* dangnigudannihuixiangqishui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dangnigudannihuixiangqishui.txt; sourceTree = "<group>"; };
+		73B7B40A17300E3C00E21084 /* hudielaiguozheshijie.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hudielaiguozheshijie.txt; sourceTree = "<group>"; };
+		73B7B40B17300E3C00E21084 /* liaiyigeIDdejuli.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = liaiyigeIDdejuli.txt; sourceTree = "<group>"; };
+		73B7B40C17300E3C00E21084 /* shalou.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shalou.txt; sourceTree = "<group>"; };
+		73B7B40D17300E3C00E21084 /* shinian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shinian.txt; sourceTree = "<group>"; };
+		73B7B40E17300E3C00E21084 /* tangyi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tangyi.txt; sourceTree = "<group>"; };
+		73B7B40F17300E3C00E21084 /* tiaopin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiaopin.txt; sourceTree = "<group>"; };
+		73B7B41017300E3C00E21084 /* wobushinideyuanjia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wobushinideyuanjia.txt; sourceTree = "<group>"; };
+		73B7B41117300E3C00E21084 /* woyaowomenzaiyiqi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = woyaowomenzaiyiqi.txt; sourceTree = "<group>"; };
+		73B7B41217300E3C00E21084 /* xiaofudequnbai.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xiaofudequnbai.txt; sourceTree = "<group>"; };
+		73B7B41317300E3C00E21084 /* xiaoyaodejinsechengbao.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xiaoyaodejinsechengbao.txt; sourceTree = "<group>"; };
+		73B7B41417300E3C00E21084 /* zuishuxidemoshengren.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuishuxidemoshengren.txt; sourceTree = "<group>"; };
+		73B7B41517300E3C00E21084 /* zuoer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuoer.txt; sourceTree = "<group>"; };
+		73B7B41617300E3C00E21084 /* zuoerzhongjie.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuoerzhongjie.txt; sourceTree = "<group>"; };
+		73B7B42817300E5B00E21084 /* aizaixianjingderizi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aizaixianjingderizi.jpeg; sourceTree = "<group>"; };
+		73B7B42917300E5B00E21084 /* anshizhangda.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anshizhangda.jpeg; sourceTree = "<group>"; };
+		73B7B42A17300E5B00E21084 /* bubizhidaowoshishui.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bubizhidaowoshishui.jpeg; sourceTree = "<group>"; };
+		73B7B42B17300E5B00E21084 /* dangnigudannihuixiangqishui.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dangnigudannihuixiangqishui.jpeg; sourceTree = "<group>"; };
+		73B7B42C17300E5B00E21084 /* hudielaiguozheshijie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hudielaiguozheshijie.jpeg; sourceTree = "<group>"; };
+		73B7B42D17300E5B00E21084 /* liaiyigeIDdejuli.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liaiyigeIDdejuli.jpeg; sourceTree = "<group>"; };
+		73B7B42E17300E5B00E21084 /* shalou.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shalou.jpeg; sourceTree = "<group>"; };
+		73B7B42F17300E5B00E21084 /* shinian.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shinian.jpeg; sourceTree = "<group>"; };
+		73B7B43017300E5B00E21084 /* tangyi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tangyi.jpeg; sourceTree = "<group>"; };
+		73B7B43117300E5B00E21084 /* tiaopin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiaopin.jpeg; sourceTree = "<group>"; };
+		73B7B43217300E5B00E21084 /* wobushinideyuanjia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wobushinideyuanjia.jpeg; sourceTree = "<group>"; };
+		73B7B43317300E5B00E21084 /* woyaowomenzaiyiqi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woyaowomenzaiyiqi.jpeg; sourceTree = "<group>"; };
+		73B7B43417300E5B00E21084 /* xiaofudequnbai.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xiaofudequnbai.jpeg; sourceTree = "<group>"; };
+		73B7B43517300E5B00E21084 /* xiaoyaodejinsechengbao.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xiaoyaodejinsechengbao.jpeg; sourceTree = "<group>"; };
+		73B7B43617300E5B00E21084 /* zuishuxidemoshengren.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zuishuxidemoshengren.jpeg; sourceTree = "<group>"; };
+		73B7B43717300E5B00E21084 /* zuoer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zuoer.jpg; sourceTree = "<group>"; };
+		73B7B43817300E5B00E21084 /* zuoerzhongjie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zuoerzhongjie.jpeg; sourceTree = "<group>"; };
+		73F0CAB51769EA5900289EF9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +140,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F0CAB61769EA5900289EF9 /* QuartzCore.framework in Frameworks */,
+				7363439A173670D00066DEB5 /* CoreText.framework in Frameworks */,
 				7322200D1726B2E60095D0F1 /* UIKit.framework in Frameworks */,
 				7322200F1726B2E60095D0F1 /* Foundation.framework in Frameworks */,
 				732220111726B2E60095D0F1 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +171,8 @@
 		7322200B1726B2E60095D0F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73F0CAB51769EA5900289EF9 /* QuartzCore.framework */,
+				73634399173670D00066DEB5 /* CoreText.framework */,
 				7322200C1726B2E60095D0F1 /* UIKit.framework */,
 				7322200E1726B2E60095D0F1 /* Foundation.framework */,
 				732220101726B2E60095D0F1 /* CoreGraphics.framework */,
@@ -85,13 +183,28 @@
 		732220121726B2E60095D0F1 /* Books */ = {
 			isa = PBXGroup;
 			children = (
+				73B7B4001730029D00E21084 /* ReadBookViewController.h */,
+				739652511749087A00151D9D /* ReadBooksViewController.h */,
+				739652521749087A00151D9D /* ReadBooksViewController.m */,
+				73B7B4011730029D00E21084 /* ReadBookViewController.m */,
+				73A70598172E4DDC00CD54B3 /* BooksCell.h */,
+				73A70599172E4DDC00CD54B3 /* BooksCell.m */,
 				7322201B1726B2E60095D0F1 /* booksAppDelegate.h */,
 				7322201C1726B2E60095D0F1 /* booksAppDelegate.m */,
 				732220241726B2E60095D0F1 /* MainStoryboard_iPhone.storyboard */,
+				73B13C16177897AE004A01EA /* ShowBookNamesCell.h */,
+				73B13C17177897AE004A01EA /* ShowBookNamesCell.m */,
+				73B13C1117787F72004A01EA /* ShowAllBooksViewController.h */,
+				73B13C1217787F72004A01EA /* ShowAllBooksViewController.m */,
 				732220271726B2E60095D0F1 /* MainStoryboard_iPad.storyboard */,
 				7322202A1726B2E60095D0F1 /* booksViewController.h */,
 				7322202B1726B2E60095D0F1 /* booksViewController.m */,
+				73249FC51726C0A500189709 /* Resoruce */,
 				732220131726B2E60095D0F1 /* Supporting Files */,
+				73A578C5172C142300E9E9F2 /* BookDetail.plist */,
+				73B13C141778936C004A01EA /* BookNames.plist */,
+				7396524E174907E300151D9D /* BookImageView.h */,
+				7396524F174907E300151D9D /* BookImageView.m */,
 			);
 			path = Books;
 			sourceTree = "<group>";
@@ -108,6 +221,63 @@
 				732220221726B2E60095D0F1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73249FC51726C0A500189709 /* Resoruce */ = {
+			isa = PBXGroup;
+			children = (
+				73B7B4051730045900E21084 /* Book */,
+				73249FC61726C0C000189709 /* Image */,
+			);
+			path = Resoruce;
+			sourceTree = "<group>";
+		};
+		73249FC61726C0C000189709 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				73B7B42817300E5B00E21084 /* aizaixianjingderizi.jpeg */,
+				73B7B42917300E5B00E21084 /* anshizhangda.jpeg */,
+				73B7B42A17300E5B00E21084 /* bubizhidaowoshishui.jpeg */,
+				73B7B42B17300E5B00E21084 /* dangnigudannihuixiangqishui.jpeg */,
+				73B7B42C17300E5B00E21084 /* hudielaiguozheshijie.jpeg */,
+				73B7B42D17300E5B00E21084 /* liaiyigeIDdejuli.jpeg */,
+				73B7B42E17300E5B00E21084 /* shalou.jpeg */,
+				73B7B42F17300E5B00E21084 /* shinian.jpeg */,
+				73B7B43017300E5B00E21084 /* tangyi.jpeg */,
+				73B7B43117300E5B00E21084 /* tiaopin.jpeg */,
+				73B7B43217300E5B00E21084 /* wobushinideyuanjia.jpeg */,
+				73B7B43317300E5B00E21084 /* woyaowomenzaiyiqi.jpeg */,
+				73B7B43417300E5B00E21084 /* xiaofudequnbai.jpeg */,
+				73B7B43517300E5B00E21084 /* xiaoyaodejinsechengbao.jpeg */,
+				73B7B43617300E5B00E21084 /* zuishuxidemoshengren.jpeg */,
+				73B7B43717300E5B00E21084 /* zuoer.jpg */,
+				73B7B43817300E5B00E21084 /* zuoerzhongjie.jpeg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		73B7B4051730045900E21084 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				73B7B40617300E3C00E21084 /* aizaixianjingderizi.txt */,
+				73B7B40717300E3C00E21084 /* anshizhangda.txt */,
+				73B7B40817300E3C00E21084 /* bubizhidaowoshishui.txt */,
+				73B7B40917300E3C00E21084 /* dangnigudannihuixiangqishui.txt */,
+				73B7B40A17300E3C00E21084 /* hudielaiguozheshijie.txt */,
+				73B7B40B17300E3C00E21084 /* liaiyigeIDdejuli.txt */,
+				73B7B40C17300E3C00E21084 /* shalou.txt */,
+				73B7B40D17300E3C00E21084 /* shinian.txt */,
+				73B7B40E17300E3C00E21084 /* tangyi.txt */,
+				73B7B40F17300E3C00E21084 /* tiaopin.txt */,
+				73B7B41017300E3C00E21084 /* wobushinideyuanjia.txt */,
+				73B7B41117300E3C00E21084 /* woyaowomenzaiyiqi.txt */,
+				73B7B41217300E3C00E21084 /* xiaofudequnbai.txt */,
+				73B7B41317300E3C00E21084 /* xiaoyaodejinsechengbao.txt */,
+				73B7B41417300E3C00E21084 /* zuishuxidemoshengren.txt */,
+				73B7B41517300E3C00E21084 /* zuoer.txt */,
+				73B7B41617300E3C00E21084 /* zuoerzhongjie.txt */,
+			);
+			name = Book;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +338,42 @@
 				732220231726B2E60095D0F1 /* Default-568h@2x.png in Resources */,
 				732220261726B2E60095D0F1 /* MainStoryboard_iPhone.storyboard in Resources */,
 				732220291726B2E60095D0F1 /* MainStoryboard_iPad.storyboard in Resources */,
+				73A578C6172C142300E9E9F2 /* BookDetail.plist in Resources */,
+				73B7B41717300E3C00E21084 /* aizaixianjingderizi.txt in Resources */,
+				73B7B41817300E3C00E21084 /* anshizhangda.txt in Resources */,
+				73B7B41917300E3C00E21084 /* bubizhidaowoshishui.txt in Resources */,
+				73B7B41A17300E3C00E21084 /* dangnigudannihuixiangqishui.txt in Resources */,
+				73B7B41B17300E3C00E21084 /* hudielaiguozheshijie.txt in Resources */,
+				73B7B41C17300E3C00E21084 /* liaiyigeIDdejuli.txt in Resources */,
+				73B7B41D17300E3C00E21084 /* shalou.txt in Resources */,
+				73B7B41E17300E3C00E21084 /* shinian.txt in Resources */,
+				73B7B41F17300E3C00E21084 /* tangyi.txt in Resources */,
+				73B7B42017300E3C00E21084 /* tiaopin.txt in Resources */,
+				73B7B42117300E3C00E21084 /* wobushinideyuanjia.txt in Resources */,
+				73B7B42217300E3C00E21084 /* woyaowomenzaiyiqi.txt in Resources */,
+				73B7B42317300E3C00E21084 /* xiaofudequnbai.txt in Resources */,
+				73B7B42417300E3C00E21084 /* xiaoyaodejinsechengbao.txt in Resources */,
+				73B7B42517300E3C00E21084 /* zuishuxidemoshengren.txt in Resources */,
+				73B7B42617300E3C00E21084 /* zuoer.txt in Resources */,
+				73B7B42717300E3C00E21084 /* zuoerzhongjie.txt in Resources */,
+				73B7B43917300E5B00E21084 /* aizaixianjingderizi.jpeg in Resources */,
+				73B7B43A17300E5B00E21084 /* anshizhangda.jpeg in Resources */,
+				73B7B43B17300E5B00E21084 /* bubizhidaowoshishui.jpeg in Resources */,
+				73B7B43C17300E5B00E21084 /* dangnigudannihuixiangqishui.jpeg in Resources */,
+				73B7B43D17300E5B00E21084 /* hudielaiguozheshijie.jpeg in Resources */,
+				73B7B43E17300E5B00E21084 /* liaiyigeIDdejuli.jpeg in Resources */,
+				73B7B43F17300E5B00E21084 /* shalou.jpeg in Resources */,
+				73B7B44017300E5B00E21084 /* shinian.jpeg in Resources */,
+				73B7B44117300E5B00E21084 /* tangyi.jpeg in Resources */,
+				73B7B44217300E5B00E21084 /* tiaopin.jpeg in Resources */,
+				73B7B44317300E5B00E21084 /* wobushinideyuanjia.jpeg in Resources */,
+				73B7B44417300E5B00E21084 /* woyaowomenzaiyiqi.jpeg in Resources */,
+				73B7B44517300E5B00E21084 /* xiaofudequnbai.jpeg in Resources */,
+				73B7B44617300E5B00E21084 /* xiaoyaodejinsechengbao.jpeg in Resources */,
+				73B7B44717300E5B00E21084 /* zuishuxidemoshengren.jpeg in Resources */,
+				73B7B44817300E5B00E21084 /* zuoer.jpg in Resources */,
+				73B7B44917300E5B00E21084 /* zuoerzhongjie.jpeg in Resources */,
+				73B13C151778936C004A01EA /* BookNames.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +387,12 @@
 				732220191726B2E60095D0F1 /* main.m in Sources */,
 				7322201D1726B2E60095D0F1 /* booksAppDelegate.m in Sources */,
 				7322202C1726B2E60095D0F1 /* booksViewController.m in Sources */,
+				73A7059A172E4DDC00CD54B3 /* BooksCell.m in Sources */,
+				73B7B4021730029D00E21084 /* ReadBookViewController.m in Sources */,
+				73965250174907E300151D9D /* BookImageView.m in Sources */,
+				739652531749087A00151D9D /* ReadBooksViewController.m in Sources */,
+				73B13C1317787F72004A01EA /* ShowAllBooksViewController.m in Sources */,
+				73B13C18177897AE004A01EA /* ShowBookNamesCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +525,7 @@
 				732220311726B2E60095D0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

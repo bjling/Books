@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
 
-@interface booksViewController : UIViewController
+@interface booksViewController : UITableViewController
+@property (strong, nonatomic) IBOutlet UITableView *bookTableView;
 
+@property(strong,nonatomic)NSArray *booksArray;
 @end
