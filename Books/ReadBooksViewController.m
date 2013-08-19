@@ -393,13 +393,11 @@
          NSString *path = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]stringByAppendingPathComponent:@"BookDetail.plist"];
         
          NSMutableArray *booksArray=[[[NSMutableArray alloc]initWithContentsOfFile:path]mutableCopy];
-        
         NSUInteger index=self.selectBookTag;
    
         NSMutableDictionary *rowDict=[[[NSMutableDictionary alloc]initWithDictionary:[booksArray objectAtIndex:index]]mutableCopy];
      
         [rowDict setObject:   [NSString stringWithFormat: @"%d", self.currentPage] forKey:@"pageIndex"];
-        
         
         [booksArray replaceObjectAtIndex:index withObject:rowDict];
         [booksArray writeToFile:path atomically:YES];
